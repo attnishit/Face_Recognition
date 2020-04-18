@@ -40,7 +40,7 @@ for filename in os.listdir(Unknown_dir):
 			top_left = (face_location[3],face_location[0])
 			bottom_right = (face_location[1],face_location[2])
 			
-			color = [0,255,0]
+			color = [(ord(c.lower())-97)*8 for c in match[:3]]
 			cv2.rectangle(image,top_left,bottom_right,color,frame_thickness)
 
 			top_left = (face_location[3],face_location[2])
@@ -49,4 +49,4 @@ for filename in os.listdir(Unknown_dir):
 			cv2.putText(image,match,(face_location[3]+10,face_location[2]+15),cv2.FONT_HERSHEY_SIMPLEX,0.5,(200,200,200),font_thickness)
 
 	cv2.imshow(filename,image)
-	cv2.waitKey(1000)
+	cv2.waitKey(2000)
