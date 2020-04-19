@@ -3,8 +3,7 @@
 <img src = "screenshot/Screenshot from 2020-04-18 19-08-31 (1).png">
 <h3>Requirements</h3>
 <ul>
-  <li>face_recognition library <a href = "https://pypi.org/project/face-recognition/" target="_blank">checkout this link</a></li>
-  <li>opencv</li>
-  <li></li>
+  <li><a href = "https://pypi.org/project/face-recognition/" target="_blank">face_recognition library  </a></li>
+  <li><a href = "https://www.pyimagesearch.com/2018/05/28/ubuntu-18-04-how-to-install-opencv/" target="_blank">opencv</a></li>
 </ul>  
 
